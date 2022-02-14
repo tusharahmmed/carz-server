@@ -187,7 +187,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.json('carz shop!')
+    res.send('carz shop!')
 })
 
 app.listen(port, () => {
